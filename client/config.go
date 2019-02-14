@@ -2,8 +2,8 @@ package client
 
 import (
 	"fmt"
+	"github.com/go-yaml/yaml"
 	"github.com/inconshreveable/ngrok/log"
-	"gopkg.in/yaml.v1"
 	"io/ioutil"
 	"net"
 	"net/url"
