@@ -9,14 +9,14 @@ deps: assets
 
 server: deps
 # go install -tags '$(BUILDTAGS)' github.com/inconshreveable/ngrok/main/ngrokd
-	go build -v -o ./bin/ngrokd -tags '$(BUILDTAGS)' github.com/inconshreveable/ngrok/main/ngrokd
+	go build -v -o ./bin/ngrokd -tags '$(BUILDTAGS)' github.com/yuanfeng0905/ngrok/main/ngrokd
 
 fmt:
 	go fmt ngrok/...
 
 client: deps
 #go install -tags '$(BUILDTAGS)' github.com/inconshreveable/ngrok/main/ngrok
-	go build -v -o ./bin/ngrok -tags '$(BUILDTAGS)' github.com/inconshreveable/ngrok/main/ngrok
+	go build -v -o ./bin/ngrok -tags '$(BUILDTAGS)' github.com/yuanfeng0905/ngrok/main/ngrok
 
 
 assets: client-assets server-assets
