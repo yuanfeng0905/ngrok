@@ -1,0 +1,101 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "code.google.com/p/log4go",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "PLYRsSaqhSKrGIuxWkV+B9uMUL8=",
+			"path": "github.com/alecthomas/log4go",
+			"revision": "d146e6b86faab5f7e4d135cc63b749d74bf0d4a6",
+			"revisionTime": "2018-01-09T08:25:32Z"
+		},
+		{
+			"checksumSHA1": "EK2VP/7bE/h7Lnutma8UHWkOJsQ=",
+			"path": "github.com/go-yaml/yaml",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		},
+		{
+			"checksumSHA1": "YdGi91Ni8IlbfOVEtCu2XHpBwX4=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "7c8e298727d149d7c329b4dec7e94e1932ac5c11",
+			"revisionTime": "2018-12-18T07:24:45Z"
+		},
+		{
+			"checksumSHA1": "qiVLPzbTaieqhCo3Mzr8U2RYgFw=",
+			"path": "github.com/inconshreveable/go-vhost",
+			"revision": "06d84117953b22058c096b49a429ebd4f3d3d97b",
+			"revisionTime": "2016-06-27T19:31:04Z"
+		},
+		{
+			"checksumSHA1": "40vJyUB4ezQSn/NSadsKEOrudMc=",
+			"path": "github.com/inconshreveable/mousetrap",
+			"revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
+			"revisionTime": "2014-10-17T20:07:13Z"
+		},
+		{
+			"checksumSHA1": "KCKXDLsu/NrrzJc540ylOgwsakE=",
+			"path": "github.com/jteeuwen/go-bindata",
+			"revision": "6025e8de665b31fa74ab1a66f2cddd8c0abf887e",
+			"revisionTime": "2018-03-05T03:04:58Z"
+		},
+		{
+			"checksumSHA1": "gEjGS03N1eysvpQ+FCHTxPcbxXc=",
+			"path": "github.com/kardianos/osext",
+			"revision": "ae77be60afb1dcacde03767a8c37337fad28ac14",
+			"revisionTime": "2017-05-10T13:15:34Z"
+		},
+		{
+			"checksumSHA1": "VB00RjgFSmoQC4eVh9qZ3Lb/B28=",
+			"path": "github.com/kr/binarydist",
+			"revision": "88f551ae580780cc79d12ab4c218ba1ca346b83a",
+			"revisionTime": "2018-05-06T09:02:46Z"
+		},
+		{
+			"checksumSHA1": "qR7D38Zmn9TPUvGn64k+r0+Kq1c=",
+			"path": "github.com/mattn/go-runewidth",
+			"revision": "703b5e6b11ae25aeb2af9ebb5d5fdf8fa2575211",
+			"revisionTime": "2018-12-18T00:06:49Z"
+		},
+		{
+			"checksumSHA1": "HAWpgEp1e+8dy1grJjAkeuxWUmg=",
+			"path": "github.com/nsf/termbox-go",
+			"revision": "02980233997d87bbda048393d47b4d453f7a398d",
+			"revisionTime": "2019-01-21T23:31:18Z"
+		},
+		{
+			"checksumSHA1": "LmajbO3+qtbE7JA0MQ29PXbmKNM=",
+			"path": "github.com/rcrowley/go-metrics",
+			"revision": "3113b8401b8a98917cde58f8bbd42a1b1c03b1fd",
+			"revisionTime": "2018-10-16T18:43:25Z"
+		},
+		{
+			"checksumSHA1": "YeBq0fA5AKW4A5g0XXC0gSoIlfk=",
+			"path": "github.com/stathat/go",
+			"revision": "74669b9f388d9d788c97399a0824adbfee78400e",
+			"revisionTime": "2016-07-15T15:55:40Z"
+		},
+		{
+			"checksumSHA1": "Ct3XiK9DlRLSgQbcCiWObBifNE8=",
+			"path": "gopkg.in/inconshreveable/go-update.v0",
+			"revision": "d8b0b1d421aa1cbf392c05869f8abbc669bb7066",
+			"revisionTime": "2015-08-14T20:01:26Z"
+		},
+		{
+			"checksumSHA1": "+NW5OKfSk3zr2/I/JM7LFA8VAYw=",
+			"path": "gopkg.in/inconshreveable/go-update.v0/check",
+			"revision": "d8b0b1d421aa1cbf392c05869f8abbc669bb7066",
+			"revisionTime": "2015-08-14T20:01:26Z"
+		},
+		{
+			"checksumSHA1": "ygwIVokEPzIfqN4eHkXSJZuLVes=",
+			"path": "gopkg.in/inconshreveable/go-update.v0/download",
+			"revision": "d8b0b1d421aa1cbf392c05869f8abbc669bb7066",
+			"revisionTime": "2015-08-14T20:01:26Z"
+		}
+	],
+	"rootPath": "github.com/inconshreveable/ngrok"
+}
