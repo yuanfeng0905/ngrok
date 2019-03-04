@@ -9,20 +9,20 @@ deps: assets
 
 server: deps
 # go install -tags '$(BUILDTAGS)' github.com/inconshreveable/ngrok/main/ngrokd
-	go build -v -o ./bin/ngrokd -tags '$(BUILDTAGS)' github.com/yuanfeng0905/ngrok/main/ngrokd
+	go build -v -o ./bin/ngrokd -tags '$(BUILDTAGS)' ./main/ngrokd
 
 fmt:
 	go fmt ngrok/...
 
 client: deps
 #go install -tags '$(BUILDTAGS)' github.com/inconshreveable/ngrok/main/ngrok
-	go build -v -o ./bin/ngrok -tags '$(BUILDTAGS)' github.com/yuanfeng0905/ngrok/main/ngrok
+	go build -v -o ./bin/ngrok -tags '$(BUILDTAGS)' ./main/ngrok
 
 
 assets: client-assets server-assets
 
 bin/go-bindata:
-	GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata/go-bindata
+	GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata/go-bindata && cp $$GOPATH/bin/go-bindata bin/
 
 client-assets: bin/go-bindata
 	bin/go-bindata -nomemcopy -pkg=assets -tags=$(BUILDTAGS) \
